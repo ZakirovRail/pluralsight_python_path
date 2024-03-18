@@ -1,0 +1,60 @@
+
+
+Download the "Exercise Files" zip from the courses page.
+
+Inside of it find the "API Server" directory.
+This directory contains the "main.py" server script and the "requirements.txt" file.
+
+Only you know how Python is set up on your machine, so these commands are what you would usually use for the default installation.
+If you have a different setup, you just need to figure out how to install the dependencies and then you can run the "main.py" file.
+
+
+
+Enter the file in the Terminal (or Command Prompt).
+
+
+
+Create the virtual environment:
+python3 -m venv venv
+
+On Windows:
+python -m venv venv
+
+
+
+Activate the environment:
+source venv/bin/activate
+
+On Windows:
+venv\Scripts\activate
+
+
+
+Install all of the dependencies:
+pip install -r requirements.txt
+
+
+
+Once they are installed, you can run the FastAPI server:
+python3 main.py
+
+On Windows:
+python main.py
+
+
+
+You can exit the env at any time with:
+deactivate
+
+
+
+This will run the server on your localhost address 127.0.0.1 port 8000.
+Add /docs to the address to see the automatically generated Swagger documentation of the API.
+
+
+### In my case I need to run command:
+$ python3 03_python_requests_playbook/demos/API\ Server/main.py
+
+
+### FAST API documentation
+http://127.0.0.1:8000/docs
