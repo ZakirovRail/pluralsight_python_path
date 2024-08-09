@@ -58,4 +58,3 @@ print(employee2.__repr__())
 # employee2.increase_salary(20, 30)
 # print(employee1.salary)
 # print(employee2.salary)
-

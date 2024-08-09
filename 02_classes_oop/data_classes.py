@@ -48,12 +48,3 @@ class Employee:
 p = Project("Django app", 20000, "Globomantics")
 e = Employee("Ji-Soo", 38, 1200, p)
 print(e.project)
-
-
-
-
-
-
-
-
-

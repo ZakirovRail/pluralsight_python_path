@@ -29,8 +29,3 @@ for entry in os.scandir(folder_original):
 
     if os.path.isfile(location_original):
         os.rename(location_original, location_destination)
-
-
-
-
-
